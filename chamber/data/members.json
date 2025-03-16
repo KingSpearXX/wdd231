@@ -40,7 +40,7 @@
         "address": "2200 Mission College Blvd, Santa Clara, CA 95054, USA",
         "phone": "+1 408-765-8080",
         "website": "https://www.intel.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Intel_logo_%282020%2C_light_blue%29.svg/640px-Intel_logo_%282020%2C_light_blue%29.svg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Intel_logo_%282020%2C_light_blue%29.svg",
         "membershipLevel": 2,
         "description": "Global semiconductor company powering processors for computers."
     },
@@ -49,7 +49,7 @@
         "address": "345 Park Ave, San Jose, CA 95110, USA",
         "phone": "+1 408-536-6000",
         "website": "https://www.adobe.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Adobe_logo_and_wordmark_%282017%29.svg/512px-Adobe_logo_and_wordmark_%282017%29.svg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Adobe_logo_and_wordmark_%282017%29.svg",
         "membershipLevel": 1,
         "description": "Creative software giant known for Photoshop, Illustrator, and Acrobat."
     },
