@@ -24,6 +24,7 @@
 
     <script defer src="scripts/dates.js"></script>
     <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/directory.js"></script>
 </head>
 
 <body>
@@ -42,7 +43,13 @@
         </nav>
     </header>
     <main>
+        <h1>Directory</h1>
+        <div class="view-toggle">
+            <button id="gridViewBtn">Grid View</button>
+            <button id="listViewBtn">List View</button>
+        </div>
 
+        <div id="company-container" class="grid-view colspan"></div>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> <span class="highlight">Rex Roger Rayla</span> Dasmarinas, Cavite -

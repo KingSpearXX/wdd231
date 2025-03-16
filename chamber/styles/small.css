@@ -12,7 +12,9 @@
   .colspan {
     grid-column: 1 / -1;
   }
-
+  .view-toggle {
+    display: none;
+  }
   nav {
     flex-direction: column;
     gap: 10px;
@@ -20,8 +22,17 @@
 
   main {
     grid-template-columns: 1fr;
+    padding: 0px;
+    margin-bottom: 10px;
+    gap: 0px;
   }
-
+  #company-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  #company-container.grid-view {
+    grid-template-columns: 1fr;
+  }
   .hamburger {
     display: block;
   }
@@ -69,7 +80,9 @@
     border-bottom: none;
     text-decoration: none;
   }
-
+  nav .active {
+    display: none;
+  }
   .close-menu {
     display: block;
   }
