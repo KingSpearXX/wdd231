@@ -42,4 +42,11 @@ document.addEventListener("DOMContentLoaded", () => {
     container.classList.remove("grid-view")
     container.classList.add("list-view")
   })
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth < 768) {
+      container.classList.add("grid-view")
+      container.classList.remove("list-view")
+    }
+  })
 })
