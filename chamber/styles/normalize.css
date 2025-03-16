@@ -64,7 +64,7 @@ nav {
 nav a {
   list-style: none;
   background-color: var(--forecolor-dark);
-  color: var(--forecolor-light); /* Moved from the first rule */
+  color: var(--forecolor-light);
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
@@ -166,17 +166,17 @@ main h1 {
 #company-container.list-view .company-card {
   display: flex;
   align-items: center;
-  text-align: left; /* Aligns content beside the logo */
+  text-align: left;
   padding: 10px;
-  gap: 20px; /* Spacing between logo and text */
+  gap: 20px;
 }
 
 /* Logo Styling for List View */
 #company-container.list-view .company-card img {
-  width: 60px; /* Logo size in list view */
+  width: 60px;
   height: auto;
-  margin-bottom: 0; /* Removes excess margin */
-  flex-shrink: 0; /* Prevents the logo from resizing */
+  margin-bottom: 0;
+  flex-shrink: 0;
 }
 
 /* Company Details in List View */
@@ -188,7 +188,7 @@ main h1 {
 /* List View - Logo on Left */
 #company-container.list-view {
   display: grid;
-  grid-template-columns: 1fr; /* Single-column layout */
+  grid-template-columns: 1fr;
   gap: 15px;
 }
 
