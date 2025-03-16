@@ -1,0 +1,251 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header div img {
+    width: 100px;
+    border-radius: 50%; 
+}
+
+header div h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f1c40f;
+    color: #333;
+}
+
+.name {
+    display: block; 
+    color: #fff;
+}
+
+.hamburger {
+    display: none; 
+    cursor: pointer;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.close-menu {
+    display: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    width: 100%;
+}
+
+.close-menu:hover {
+    color: #f1c40f;
+}
+
+
+main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0px 50px 20px 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 0.9em;
+}
+
+footer .highlight {
+    color: #f1c40f;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+.colspan {
+    grid-column: span 2;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2rem;
+    color: #2c3e50;
+    border-radius: 8px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 0;  
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
+.card h2 {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;  
+    margin: 0;        
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;      
+}
+
+.card ul {
+    padding: 20px; 
+    list-style-type: none; 
+}
+
+
+.card li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card li::before {
+    content: "✔️"; /* Purple checkmark */
+    color: #8e44ad;
+}
+
+.card img {
+    margin: 10px auto;
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.card p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.certificate-section {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.certificate-section .filter-btns {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.certificate-section .filter-btns button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.certificate-section .filter-btns button:hover {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+.certificate-section .course-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.certificate-section .course {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 0.9em;
+}
+
+footer .highlight {
+    color: #f1c40f;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
