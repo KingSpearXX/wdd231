@@ -1,0 +1,122 @@
+/* Global Styles */
+:root {
+  --primary-color: #2c3e50;
+  --forecolor-light: #fff;
+  --forecolor-dark: #333;
+  --background-color: #f4f4f4;
+  --accent-color: #ff8800;
+  --highlight-color: #f1c40f;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: #333;
+}
+
+/* Header and Nav */
+header {
+  /* gradient primary color to white 70% */
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+header div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.logo {
+  width: 100px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  color: var(--forecolor-light);
+}
+nav a {
+  color: var(--forecolor-light);
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+}
+
+nav a {
+  list-style: none;
+  background-color: var(--forecolor-dark);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  min-width: 100px;
+}
+nav .active {
+  background-color: var(--highlight-color);
+  color: var(--forecolor-dark);
+}
+
+.close-menu {
+  display: none;
+}
+.name {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--forecolor-light);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--forecolor-light);
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  font-size: 0.9em;
+}
+
+footer .highlight {
+  color: var(--highlight-color);
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Main */
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0px 50px 20px 50px;
+  width: 80%;
+  margin: 0 auto;
+}
