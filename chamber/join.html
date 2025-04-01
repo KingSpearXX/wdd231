@@ -63,35 +63,42 @@
           established enterprise, the Virtual Chamber of Commerce provides a powerful platform to connect with like-minded professionals, promote your
           business, and access exclusive resources and events.
         </p>
-        <form class="membership-form" method="get" action="./thankyou.html">
+        <form id="membershipForm" class="membership-form" method="get" action="./thankyou.html">
           <label>
             * First Name:
-            <input type="text" name="firstName" required />
+            <input type="text" name="firstName" autocomplete="name" pattern="^[A-Za-z\s\-]{2,}$" required />
           </label>
 
           <label>
             * Last Name:
-            <input type="text" name="lastName" required />
+            <input type="text" name="lastName" autocomplete="additional-name" pattern="^[A-Za-z\s\-]{2,}$" required />
           </label>
 
           <label>
-            Organizational Title:
-            <input type="text" name="title" />
+            * Organizational Title:
+            <input
+              type="text"
+              name="title"
+              required
+              autocomplete="organization-title"
+              pattern="^[A-Za-z\s\-]{7,}$"
+              title="Please enter at least 7 characters. Letters, spaces, and hyphens only."
+            />
           </label>
 
           <label>
             * Email Address:
-            <input type="email" name="email" required />
+            <input type="email" id="email" name="email" required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" />
           </label>
 
           <label>
             Phone Number:
-            <input type="tel" name="phone" />
+            <input type="tel" id="phone" name="phone" pattern="^\d{10,15}$" />
           </label>
 
           <label>
             * Organization Name:
-            <input type="text" name="organization" required />
+            <input type="text" name="organization" required pattern=".{2,}" />
           </label>
 
           <fieldset>
