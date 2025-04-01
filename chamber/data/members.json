@@ -1,65 +1,65 @@
 [
-    {
-        "name": "Microsoft",
-        "address": "One Microsoft Way, Redmond, WA 98052, USA",
-        "phone": "+1 425-882-8080",
-        "website": "https://www.microsoft.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-        "membershipLevel": 3,
-        "description": "Leading software company known for Windows, Office, and Azure."
-    },
-    {
-        "name": "Apple Inc.",
-        "address": "One Apple Park Way, Cupertino, CA 95014, USA",
-        "phone": "+1 408-996-1010",
-        "website": "https://www.apple.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-        "membershipLevel": 3,
-        "description": "Global leader in technology, known for iPhone, Mac, and iOS."
-    },
-    {
-        "name": "Google",
-        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
-        "phone": "+1 650-253-0000",
-        "website": "https://www.google.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        "membershipLevel": 3,
-        "description": "Search engine giant with services like Gmail, Maps, and Android."
-    },
-    {
-        "name": "Amazon Web Services",
-        "address": "410 Terry Ave N, Seattle, WA 98109, USA",
-        "phone": "+1 206-266-1000",
-        "website": "https://aws.amazon.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-        "membershipLevel": 2,
-        "description": "Cloud computing leader offering scalable solutions for businesses."
-    },
-    {
-        "name": "Intel",
-        "address": "2200 Mission College Blvd, Santa Clara, CA 95054, USA",
-        "phone": "+1 408-765-8080",
-        "website": "https://www.intel.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Intel_logo_%282020%2C_light_blue%29.svg",
-        "membershipLevel": 2,
-        "description": "Global semiconductor company powering processors for computers."
-    },
-    {
-        "name": "Adobe",
-        "address": "345 Park Ave, San Jose, CA 95110, USA",
-        "phone": "+1 408-536-6000",
-        "website": "https://www.adobe.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Adobe_logo_and_wordmark_%282017%29.svg",
-        "membershipLevel": 1,
-        "description": "Creative software giant known for Photoshop, Illustrator, and Acrobat."
-    },
-    {
-        "name": "NVIDIA",
-        "address": "2788 San Tomas Expressway, Santa Clara, CA 95051, USA",
-        "phone": "+1 408-486-2000",
-        "website": "https://www.nvidia.com",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
-        "membershipLevel": 1,
-        "description": "Pioneers in GPU technology, revolutionizing gaming and AI."
-    }
+   {
+      "name": "Microsoft",
+      "address": "One Microsoft Way, Redmond, WA 98052, USA",
+      "phone": "+1 425-882-8080",
+      "website": "https://www.microsoft.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "membershipLevel": "Platinum",
+      "description": "Leading software company known for Windows, Office, and Azure."
+   },
+   {
+      "name": "Apple Inc.",
+      "address": "One Apple Park Way, Cupertino, CA 95014, USA",
+      "phone": "+1 408-996-1010",
+      "website": "https://www.apple.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "membershipLevel": "Platinum",
+      "description": "Global leader in technology, known for iPhone, Mac, and iOS."
+   },
+   {
+      "name": "Google",
+      "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "phone": "+1 650-253-0000",
+      "website": "https://www.google.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "membershipLevel": "Platinum",
+      "description": "Search engine giant with services like Gmail, Maps, and Android."
+   },
+   {
+      "name": "Amazon Web Services",
+      "address": "410 Terry Ave N, Seattle, WA 98109, USA",
+      "phone": "+1 206-266-1000",
+      "website": "https://aws.amazon.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      "membershipLevel": "Gold",
+      "description": "Cloud computing leader offering scalable solutions for businesses."
+   },
+   {
+      "name": "Intel",
+      "address": "2200 Mission College Blvd, Santa Clara, CA 95054, USA",
+      "phone": "+1 408-765-8080",
+      "website": "https://www.intel.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Intel_logo_%282020%2C_light_blue%29.svg",
+      "membershipLevel": "Gold",
+      "description": "Global semiconductor company powering processors for computers."
+   },
+   {
+      "name": "Adobe",
+      "address": "345 Park Ave, San Jose, CA 95110, USA",
+      "phone": "+1 408-536-6000",
+      "website": "https://www.adobe.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Adobe_logo_and_wordmark_%282017%29.svg",
+      "membershipLevel": "Silver",
+      "description": "Creative software giant known for Photoshop, Illustrator, and Acrobat."
+   },
+   {
+      "name": "NVIDIA",
+      "address": "2788 San Tomas Expressway, Santa Clara, CA 95051, USA",
+      "phone": "+1 408-486-2000",
+      "website": "https://www.nvidia.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
+      "membershipLevel": "Silver",
+      "description": "Pioneers in GPU technology, revolutionizing gaming and AI."
+   }
 ]

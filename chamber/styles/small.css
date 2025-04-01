@@ -1,6 +1,14 @@
+:root {
+  --primary-color: #2c3e50;
+  --forecolor-light: #fff;
+  --forecolor-dark: #333;
+  --background-color: #f4f4f4;
+  --accent-color: #ff8800;
+  --highlight-color: #f1c40f;
+}
 @media (max-width: 768px) {
   header {
-    background: linear-gradient(180deg, var(--primary-color), #fff 70%);
+    background: linear-gradient(180deg, var(--primary-color) 100%, var(--background-color) 100%);
   }
   header div {
     flex-direction: column;
@@ -9,9 +17,6 @@
     display: none;
   }
 
-  .colspan {
-    grid-column: 1 / -1;
-  }
   .view-toggle {
     display: none;
   }
@@ -85,6 +90,91 @@
   }
   .close-menu {
     display: block;
+  }
+  .hero {
+    width: 100vw;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hero-content {
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .hero-content h1 {
+    font-size: 2.5rem;
+    margin: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .hero .subtitle {
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .hero p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .hero .cta-container {
+    width: calc(100vw - 20px);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .hero .cta-button {
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  .dashboard-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 90vw;
+  }
+  .event-card {
+    min-width: 290px;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  .card {
+    min-width: 290px;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  .member-spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 700px;
+    padding: 0px;
+  }
+  .forecast-day {
+    gap: 1rem;
+    padding: 0.1rem;
+  }
+  .forecast-day img {
+    display: none;
+  }
+  .forecast-day h4 {
+    font-size: 0.8rem;
+  }
+
+  .forecast-day p {
+    font-size: 0.7rem;
+  }
+  .featured {
+    margin: 0 auto;
   }
 
   @keyframes fadeIn {
