@@ -458,7 +458,7 @@ button:hover {
 .member-details h4 {
   margin: 0 0 0.5rem;
   font-size: 1.1rem;
-  color: #f1c40f;
+  color: var(--primary-color);
 }
 
 .member-details p {
