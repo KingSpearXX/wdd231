@@ -176,7 +176,11 @@
   .featured {
     margin: 0 auto;
   }
-
+  .social-footer {
+    grid-template-columns: 1fr;
+    max-height: 300px;
+    gap: 0px;
+  }
   @keyframes fadeIn {
     from {
       opacity: 0;
