@@ -41,3 +41,32 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 })
+const greetings = document.getElementById("greetings")
+
+// Get last visit from localStorage
+const lastVisit = localStorage.getItem("lastVisit")
+const now = new Date()
+let message = ""
+
+if (!lastVisit) {
+  // First visit
+  message = "Welcome! Let us know if you have any questions."
+} else {
+  const previousVisit = new Date(lastVisit)
+  const diffTime = now - previousVisit
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
+
+  if (diffDays === 0) {
+    message = "Back so soon! Awesome!"
+  } else if (diffDays === 1) {
+    message = "You last visited 1 day ago."
+  } else {
+    message = `You last visited ${diffDays} days ago.`
+  }
+}
+
+// Save current visit
+localStorage.setItem("lastVisit", now.toISOString())
+
+// Display the message in the greetings
+greetings.textContent = message

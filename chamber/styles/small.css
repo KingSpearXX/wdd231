@@ -38,6 +38,13 @@
   #company-container.grid-view {
     grid-template-columns: 1fr;
   }
+  #discover-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  #discover-container.grid-view {
+    grid-template-columns: 1fr;
+  }
   .hamburger {
     display: block;
   }
