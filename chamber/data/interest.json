@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ENIAC Unveiled",
+    "address": "University of Pennsylvania, Philadelphia, USA",
+    "description": "The ENIAC, the first general-purpose electronic computer, was publicly unveiled in 1946, marking a significant leap in computing technology.",
+    "image": "discover(1).webp"
+  },
+  {
+    "name": "ARPANET Goes Live",
+    "address": "UCLA, Los Angeles, California, USA",
+    "description": "In 1969, the ARPANET sent its first message between UCLA and Stanford, laying the foundation for the modern internet.",
+    "image": "discover(2).webp"
+  },
+  {
+    "name": "Apple I Released",
+    "address": "Los Altos, California, USA",
+    "description": "Steve Wozniak and Steve Jobs introduced the Apple I in 1976, one of the first personal computers with a single circuit board.",
+    "image": "discover(3).webp"
+  },
+  {
+    "name": "IBM PC Launched",
+    "address": "Boca Raton, Florida, USA",
+    "description": "IBM entered the personal computer market in 1981 with the IBM 5150, setting standards for PC architecture.",
+    "image": "discover(4).webp"
+  },
+  {
+    "name": "Windows 95 Release",
+    "address": "Redmond, Washington, USA",
+    "description": "Microsoft's launch of Windows 95 in 1995 was a major milestone in GUI-based computing, attracting global attention.",
+    "image": "discover(5).webp"
+  },
+  {
+    "name": "Google Founded",
+    "address": "Menlo Park, California, USA",
+    "description": "In 1998, Larry Page and Sergey Brin founded Google, revolutionizing how people search and access information online.",
+    "image": "discover(6).webp"
+  },
+  {
+    "name": "YouTube Launched",
+    "address": "San Mateo, California, USA",
+    "description": "YouTube's debut in 2005 changed the digital media landscape, becoming the largest video-sharing platform in the world.",
+    "image": "discover(7).webp"
+  },
+  {
+    "name": "ChatGPT Unleashed",
+    "address": "San Francisco, California, USA",
+    "description": "OpenAI released ChatGPT in 2022, showcasing the power of large language models in everyday applications.",
+    "image": "discover(8).webp"
+  }
+]

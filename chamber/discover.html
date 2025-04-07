@@ -21,7 +21,7 @@
     <meta property="og:site_name" content="Virtual Chamber of Commerce" />
     <meta property="og:locale" content="en_US" />
 
-    <title>Virtual Chamber Commerce - Join - WDD 231 Rex Roger Rayla</title>
+    <title>Virtual Chamber Commerce - Directory - WDD 231 Rex Roger Rayla</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/larger.css" />
@@ -37,7 +37,7 @@
 
     <script defer src="scripts/dates.js"></script>
     <script defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/modal.js"></script>
+    <script defer src="scripts/interest.js"></script>
   </head>
 
   <body>
@@ -56,108 +56,9 @@
       </nav>
     </header>
     <main>
-      <h1>Become a Member</h1>
-      <section class="form-section colspan">
-        <p>
-          Unlock opportunities. Expand your reach. Grow with a community that’s committed to your success. Whether you're a startup, nonprofit, or
-          established enterprise, the Virtual Chamber of Commerce provides a powerful platform to connect with like-minded professionals, promote your
-          business, and access exclusive resources and events.
-        </p>
-        <form id="membershipForm" class="membership-form" method="get" action="./thankyou.html">
-          <label>
-            * First Name:
-            <input type="text" name="firstName" autocomplete="name" pattern="^[A-Za-z\s\-]{2,}$" required />
-          </label>
-
-          <label>
-            * Last Name:
-            <input type="text" name="lastName" autocomplete="additional-name" pattern="^[A-Za-z\s\-]{2,}$" required />
-          </label>
-
-          <label>
-            * Organizational Title:
-            <input
-              type="text"
-              name="title"
-              required
-              autocomplete="organization-title"
-              pattern="^[A-Za-z\s\-]{7,}$"
-              title="Please enter at least 7 characters. Letters, spaces, and hyphens only."
-            />
-          </label>
-
-          <label>
-            * Email Address:
-            <input type="email" id="email" name="email" required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" />
-          </label>
-
-          <label>
-            Phone Number:
-            <input type="tel" id="phone" name="phone" pattern="^\d{10,15}$" />
-          </label>
-
-          <label>
-            * Organization Name:
-            <input type="text" name="organization" required pattern=".{2,}" />
-          </label>
-
-          <fieldset>
-            <legend>Select Membership Level</legend>
-            <label>
-              <input type="radio" name="membership" value="NP" />
-              NP Membership
-            </label>
-            <label>
-              <input type="radio" name="membership" value="Bronze" />
-              Bronze Membership
-            </label>
-            <label>
-              <input type="radio" name="membership" value="Silver" />
-              Silver Membership
-            </label>
-            <label>
-              <input type="radio" name="membership" value="Gold" />
-              Gold Membership
-            </label>
-          </fieldset>
-
-          <label>
-            Organization Description:
-            <textarea name="description" rows="4"></textarea>
-          </label>
-
-          <button type="submit">Submit Application</button>
-        </form>
-
-        <aside class="membership-levels">
-          <h3>Membership Levels</h3>
-          <p>Learn more about each membership level and their benefits</p>
-
-          <div class="level">
-            <strong>NP</strong>
-            <a href="#" onclick="showModal('np')">Learn More!</a>
-          </div>
-          <div class="level">
-            <strong>Bronze</strong>
-            <a href="#" onclick="showModal('bronze')">Learn More!</a>
-          </div>
-          <div class="level">
-            <strong>Silver</strong>
-            <a href="#" onclick="showModal('silver')">Learn More!</a>
-          </div>
-          <div class="level">
-            <strong>Gold</strong>
-            <a href="#" onclick="showModal('gold')">Learn More!</a>
-          </div>
-        </aside>
-      </section>
-      <dialog id="membership-modal">
-        <div class="modal-content">
-          <h3 id="modal-title">Membership Info</h3>
-          <p id="modal-description">Description goes here...</p>
-          <button onclick="closeModal()">Close</button>
-        </div>
-      </dialog>
+      <h1>Directory</h1>
+      <h1 id="greetings" class="colspan"></h1>
+      <div id="discover-container" class="grid-view colspan"></div>
     </main>
     <div class="social-footer">
       <div class="contact-info">
