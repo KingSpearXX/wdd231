@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Strawberry Taho",
+      "flavor": "Sweet and creamy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/64905b55d2da1763d70b05d0/bc1ae48d-09a7-4c83-b350-b6afeae16728/strawberry+taho.jpg"
+    },
+    {
+      "name": "Arnibal Taho",
+      "flavor": "Sweet and caramelized",
+      "imageUrl": "https://img.delicious.com.au/CqRHYuji/del/2024/02/taho-206778-1.jpg"
+    },
+    {
+      "name": "Ube Taho",
+      "flavor": "Sweet and purple",
+      "imageUrl": "https://i.ytimg.com/vi/OoPdxRZ9myg/maxresdefault.jpg"
+    },
+    {
+      "name": "Mango Taho",
+      "flavor": "Sweet and fruity",
+      "imageUrl": "https://i.ytimg.com/vi/nMiud55W_H0/maxresdefault.jpg"
+    },
+    {
+      "name": "Nata Taho",
+      "flavor": "Sweet and chewy",
+      "imageUrl": "https://i.pinimg.com/736x/95/54/b6/9554b6716be168a1070cda26c7481356--bar.jpg"
+    },
+    {
+      "name": "Ice Cream Taho",
+      "flavor": "Extra cold and creamy",
+      "imageUrl": "https://th.bing.com/th/id/OIP.4MDLpW_uBigCazpxoyymdgAAAA?rs=1&pid=ImgDetMain"
+    }
+]

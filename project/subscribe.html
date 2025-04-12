@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Week 06 Final Project by Rex Roger Rayla">
+    <meta name="author" content="Rex Roger Rayla">
+    <title>TAHO for Everyone</title>
+    <link rel="stylesheet" href="styles/taho.css">
+    <link rel="stylesheet" href="styles/taho-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo%202:ital,wght@0,300..800;1,300..800&family=Bangers&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <img src="images/logo.svg" alt="TAHO For Everyone Logo">
+            <h1>Taho For Everyone!</h1>
+        </div>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li class="hamburger" onclick="toggleMenu()"><a href="#">☰</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="heroContainer">
+        <div>
+            <h1>Thank youu for Subscribing!</h1>
+            <br>
+            <p>You are the <span id="counter">#</span> person to subscribe</p>
+        </div>
+        <div>
+            <img src="images/hero.webp" alt="Taho For Everyone Hero Image">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> <span class="highlight">Rex Roger Rayla</span> Dasmarinas, Cavite</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+
+    <script defer src="scripts/taho.js"></script>
+    <script defer src="scripts/counter.js"></script>
+</body>
+
+</html>

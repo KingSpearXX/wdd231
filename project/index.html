@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Week 06 Final Project by Rex Roger Rayla">
+    <meta name="author" content="Rex Roger Rayla">
+    <meta property="og:title" content="Delicious Taho – A Classic Filipino Delicacy" />
+    <meta property="og:description" content="Discover the sweet and silky Filipino street food made of soft tofu, arnibal (sweet syrup), and sago pearls. A taste of tradition in every cup!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.mytahosite.com" />
+    <meta property="og:image" content="https://www.mytahosite.com/images/taho-preview.jpg" />
+    <meta property="og:site_name" content="Taho Delights" />
+    <meta property="og:locale" content="en_PH" />
+    <title>TAHO for Everyone</title>
+    <link rel="stylesheet" href="styles/taho.css">
+    <link rel="stylesheet" href="styles/taho-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo%202:ital,wght@0,300..800;1,300..800&family=Bangers&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <img src="images/logo.svg" alt="TAHO For Everyone Logo">
+            <h1>Taho For Everyone!</h1>
+        </div>
+        <nav>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="hamburger" onclick="toggleMenu()"><a href="#">☰</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="heroContainer">
+        <img src="images/hero.webp" alt="Taho For Everyone Hero Image">
+        <div>
+            <h1>Savor the Sweet, Silky Goodness of Taho!</h1>
+            <p>✨ A Timeless Filipino Treat ✨</p>
+            <br>
+            <p>Warm, silky tofu. Sweet arnibal syrup. Soft, chewy sago pearls. Taho is more than just a dessert—it’s a
+                comforting tradition enjoyed by Filipinos for generations. Whether it’s a morning delight or an
+                afternoon indulgence, each spoonful brings the perfect balance of creamy, sweet, and satisfying.</p>
+            <p>Ready to taste nostalgia in every bite? Grab a cup of Taho today!</p>
+            <button>Find Taho Near Me</button>
+        </div>
+    </div>
+    <div class="mailListContainer">
+        <h1>Mailing List</h1>
+        <form method="get" action="subscribe.html">
+            <label for="email">Sign up for our mailing list to get the latest updates on Taho For Everyone!</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <button>Subscribe</button>
+        </form>
+    </div>
+    <section class="infoSection">
+        <div>
+            <h1>Old-Style Taho</h1>
+            <p>Experience the classic taste of Taho with our Old-Style Taho! Made with freshly-made tofu, sweet arnibal
+                syrup, and chewy sago pearls, this traditional treat is a nostalgic delight that’s perfect for any time
+                of
+                the day.</p>
+            <button>Learn More</button>
+        </div>
+        <div>
+            <img src="images/old.webp" alt="Old Taho">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> <span class="highlight">Rex Roger Rayla</span> Dasmarinas, Cavite</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+
+    <script defer src="scripts/taho.js"></script>
+</body>
+
+</html>

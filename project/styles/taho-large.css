@@ -1,0 +1,149 @@
+:root {
+    --back-color: #cbbfbb;
+    --fore-color: #493843;
+    --high-color: #EABDA8;
+    --hover-color: #61988E;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: var(--high-color);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000;
+    }
+    nav li {
+        padding: 10px;
+        border-bottom: var(--fore-color) solid 1px;
+    }
+    nav li:hover {
+        background-color: var(--fore-color);
+    }
+    nav li:last-child {
+        border-bottom: none;
+        font-size: x-small;
+    }
+    nav ul.show {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.8em;
+        color: var(--fore-color);
+        cursor: pointer;
+    }
+
+    .heroContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .heroContainer img {
+        width: 100%;
+        height: auto;
+    }
+    .heroContainer h1 {
+        font-size: 2em;
+        margin-top: -20px;
+    }
+    .heroContainer p {
+        font-size: .75em;
+        margin-top: 10px;
+    }
+    .mailListContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: var(--fore-color);
+        color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .mailListContainer h1 {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 2.5em;
+        margin: 0 auto;
+        text-align: center;
+        grid-column: 1 / -1; 
+    }
+    .mailListContainer form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .mailListContainer input {
+        padding: 10px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+    }
+    .mailListContainer button {
+        background-color: var(--high-color);
+        color: var(--fore-color);
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        grid-column: 1 / -1; /* Makes h1 span across all columns */
+    
+    }
+    .mailListContainer label {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .infoSection {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    #image-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 769px) {
+    nav ul {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        gap: 15px;
+        background-color: transparent;
+        height: auto;
+        width: auto;
+        padding: 0;
+        right: auto;
+    }
+
+    .hamburger {
+        display: none; 
+    }
+}
+
